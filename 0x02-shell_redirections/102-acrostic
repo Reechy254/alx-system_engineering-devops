@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | tr -d '\n' | paste -sd '\n' && echo
+cut -c 1 | tr -d '\n' | fold -w1 | paste -s -d '\n'
